@@ -1,0 +1,38 @@
+{
+  "name": "outerwilds-solar-system",
+  "version": "0.0.1",
+  "description": "Outer Wilds solar system with HTML5 canvas",
+  "main": "webpack.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development --config webpack.config.js --progress",
+    "start": "webpack serve --open --mode development --config webpack.config.js",
+    "prod": "webpack --mode production --config webpack.config.js --progress",
+    "format": "npx prettier --write ./src"
+  },
+  "author": "Lerwox",
+  "license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Lerwox/ow-nomai-solar-system.git"
+	},
+  "devDependencies": {
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.3.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "mini-css-extract-plugin": "^2.3.0",
+    "path": "^0.12.7",
+    "prettier": "^2.4.1",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.42.1",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.3.0",
+    "webpack": "^5.56.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.1"
+  }
+}

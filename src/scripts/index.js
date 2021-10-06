@@ -1,0 +1,1 @@
+console.log("Hi, I'm ow-nomai-solair-system module")
